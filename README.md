@@ -17,15 +17,27 @@ Primary analysis from the column description
 - Upper 25% of people pay more than 89.85$
 
 Churn data
+
   ![image](https://github.com/user-attachments/assets/9e612359-f9cc-46c1-b476-15506a66bc4c)
 
   ![image](https://github.com/user-attachments/assets/506271b3-1d99-49db-b1f5-5fd1e7b93906)
 
-  Observation: Chrun rate is high as per the standard benchmark of the market.
+  Observation: The churn rate is high, as per the market's standard benchmark. We need to analyze it further using other columns.
 
   ![image](https://github.com/user-attachments/assets/f303d096-52b4-4f09-9766-2896bbfd65e0)
 
-  
+ ![image](https://github.com/user-attachments/assets/1bc43430-8c4a-4655-bbae-14f41e85b9a2)
+
+Observation: Apparently, there is no non-null value since all columns have 7043 records. Here, the Total Charges column should be numeric. It also needs to be converted to numeric to determine the non-null value.
+
+![image](https://github.com/user-attachments/assets/c7a2482b-81f5-4be8-b5d2-48eb60544f81)
+
+
+
+
+
+ 
+
 
 
 
