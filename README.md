@@ -57,9 +57,13 @@ Here dropping the null values will not cause a major effect
 
 From gender, no significant analysis can be done regarding churn. For male Churn looks little more than female.
 
-![image](https://github.com/user-attachments/assets/26c8bdf7-ca04-4efd-b56e-a32946f532a8)
+![image](https://github.com/user-attachments/assets/d67bc323-3ad1-49b3-9bd7-cb9be07f286e)
 
 For senior citizens a significant difference can be observed. 1300/4500*100 = **28.88% non-senior citizen** are churned. 400/600*100 = **66.66% senior citizen** are churned.
+
+
+![image](https://github.com/user-attachments/assets/26c8bdf7-ca04-4efd-b56e-a32946f532a8)
+
 
 ![image](https://github.com/user-attachments/assets/43a51c2b-b5cd-427b-b334-6b09ef8ea140)
 
