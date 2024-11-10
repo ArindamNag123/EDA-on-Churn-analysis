@@ -32,6 +32,17 @@ Observation: Apparently, there is no non-null value since all columns have 7043 
 
 ![image](https://github.com/user-attachments/assets/c7a2482b-81f5-4be8-b5d2-48eb60544f81)
 
+After converting Total Charges to numeric, there are 11 null values. Two steps to handle these values. 
+1) Drop them cuz the percentage is too low 11/7043*100 % = 0.15%
+2) Imputing with mean/median/backward filling/ forward filling
+
+Here dropping the null values will not cause a major effect
+
+![image](https://github.com/user-attachments/assets/7492afaf-7c4f-4cf0-81b2-29a533d3328c)
+
+****Feature Binning****
+
+
 
 
 
