@@ -59,19 +59,32 @@ From gender, no significant analysis can be done regarding churn. For male Churn
 
 ![image](https://github.com/user-attachments/assets/d67bc323-3ad1-49b3-9bd7-cb9be07f286e)
 
-For senior citizens a significant difference can be observed. 1300/4500 *100 = **28.88% non-senior citizen** are churned. 400/600 *100 = **66.66% senior citizen** are churned.
+For senior citizens a significant difference can be observed. 1300/5300 *100 = **24.5% appx, non-senior citizen** are churned. 400/1000 *100 = **40% senior citizen** are churned appx.
 
 
 ![image](https://github.com/user-attachments/assets/26c8bdf7-ca04-4efd-b56e-a32946f532a8)
 
 
+Its clear that those are not having partners are likely to churn, 1200/3600 * 100 = 33.3% appx.
+
 ![image](https://github.com/user-attachments/assets/43a51c2b-b5cd-427b-b334-6b09ef8ea140)
+
+
+People with no dependants are churned much. 1500/3400 * 100% = 30.6% appx.
 
 
 ![image](https://github.com/user-attachments/assets/d64cfd3e-8383-4921-b2cb-29707736f060)
 
 
+
+People **with no phone service churned by 200/700 *100 = 28.5% appx**, and **with phone service are churned by 25.8% appx.**
+
+
+
  ![image](https://github.com/user-attachments/assets/a61d0dd3-d93e-4310-a26b-b8a7e12b4ea5)
+
+
+ 
 
 
  ![image](https://github.com/user-attachments/assets/2765d245-57b8-4552-abf4-e3bfddeef3ce)
