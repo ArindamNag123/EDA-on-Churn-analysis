@@ -77,14 +77,19 @@ People with no dependants are churned much. 1500/3400 * 100% = 30.6% appx.
 
 
 
-People **with no phone service churned by 200/700 *100 = 28.5% appx**, and **with phone service are churned by 25.8% appx.**
+People **with no phone service churned by 200/700 * 100 = 28.5% appx**, and **with phone service are churned by 16/62 * 100 = 25.8% appx.**
 
+
+![image](https://github.com/user-attachments/assets/34b4f22c-4ecb-4ab5-811b-6d37f757ef39)
+
+
+Regarding the Internet service churn rate is high for **fiber optic user which is 250/2250 * 100 = 11.1% appx**.
 
 
  ![image](https://github.com/user-attachments/assets/a61d0dd3-d93e-4310-a26b-b8a7e12b4ea5)
 
 
- 
+**Montn to month contract** basis users are more churned among other contract tiers, which is **1650/3900 * 100 = 42.3% appx**
 
 
  ![image](https://github.com/user-attachments/assets/2765d245-57b8-4552-abf4-e3bfddeef3ce)
