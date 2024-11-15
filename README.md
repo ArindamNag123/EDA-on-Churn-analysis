@@ -95,7 +95,79 @@ Regarding the Internet service churn rate is high for **fiber optic user which i
  ![image](https://github.com/user-attachments/assets/2765d245-57b8-4552-abf4-e3bfddeef3ce)
 
 
+People with paperless billing are more churned with **1400/3950 * 100 = 35.44% appx**
+
+
+![image](https://github.com/user-attachments/assets/b5fce90f-aece-49a7-b495-8bf2b70c6d04)
+
+According to the payment method vs Churn analysis most users churned are with electronic payment method with **1050/2350 * 100 = 44.68% appx**
+
+
  ![image](https://github.com/user-attachments/assets/a8f59211-a5ba-427f-be54-83f01056e9a8)
+
+ 
+1-12 months tenure group is most churned group of all with **1050/2200 * 100 = 47.72% appx**
+
+
+**Bivariant Analysis**
+
+Now for Bivariant Analysis feature encoding is required and for that there are multiple techniques , here Panda's get_dummies is used as One Hot Encoding Techniques.
+
+For that Churn column has been converted to binary form. Also for finding correlation this is required.
+
+![image](https://github.com/user-attachments/assets/b33f361f-21f7-446a-a249-5cdec2dac77d)
+
+
+![image](https://github.com/user-attachments/assets/d8123d10-50ff-4946-94a0-a51a5c6756c0)
+
+
+After the conversion, Correlation between monthly and Total charges are ploted.
+
+![image](https://github.com/user-attachments/assets/65eb946b-41e8-4189-a24e-90998614c776)
+
+
+![image](https://github.com/user-attachments/assets/db0f6910-c12b-4283-9280-3cdb9d3a87e8)
+
+The correlation value is 0.65.
+![image](https://github.com/user-attachments/assets/4cf5aa7e-5117-41b0-b61c-5fb908c26f19)
+
+
+
+To understand the distribution of the Churned & Non-churned with Monthly charges KDE plot is used.
+
+![image](https://github.com/user-attachments/assets/5d28d707-1620-4994-985a-24f2b00b99e4)
+
+![image](https://github.com/user-attachments/assets/e0e54a96-95dc-4a65-806f-fe8cfcef78cd)
+
+From the above plot its very clear that while monthly charges are increasing Churn is also high. It can be inferred that due to the monetary aspect the churns are high with high monthly charges.
+
+Surprisingly while total charges are plotted different result came out.
+
+![image](https://github.com/user-attachments/assets/da7f2f9b-8054-48b7-bc7a-fa1faf03b400)
+
+
+![image](https://github.com/user-attachments/assets/e6b85981-4c7f-42a9-9ecf-137bd9aa923a)
+
+
+Here even though monthly and total charges are highly correlated(>.6) still its observed that while Total charges are low churn is high and vice versa. It can be inferred that Tenure is a factor impacting the churn. **With less Tenure higher monthly charges is related to lower Total Charges and High churn.**
+
+Now if we try to plot correlation with all the columns present in new data frame created by Dummy method we can find the factors which are or are not impacting the churn.
+
+![image](https://github.com/user-attachments/assets/80598f84-1e17-4e4d-9a62-3856aabed794)
+
+![image](https://github.com/user-attachments/assets/8c4fd755-9c79-4dfd-bc9f-10affe0168de)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
