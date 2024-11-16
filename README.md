@@ -23,7 +23,7 @@ Churn data
 
   ![image](https://github.com/user-attachments/assets/506271b3-1d99-49db-b1f5-5fd1e7b93906)
 
-  Observation: The churn rate is high, as per the market's standard benchmark. We need to analyze it further using other columns.
+  Observation: The churn rate is high, as per the market's standard benchmark. It needs to be analyzed further using other columns.
 
   ![image](https://github.com/user-attachments/assets/f303d096-52b4-4f09-9766-2896bbfd65e0)
 
@@ -151,11 +151,75 @@ Surprisingly while total charges are plotted different result came out.
 
 Here even though monthly and total charges are highly correlated(>.6) still its observed that while Total charges are low churn is high and vice versa. It can be inferred that Tenure is a factor impacting the churn. **With less Tenure higher monthly charges is related to lower Total Charges and High churn.**
 
-Now if we try to plot correlation with all the columns present in new data frame created by Dummy method we can find the factors which are or are not impacting the churn.
+![image](https://github.com/user-attachments/assets/99164503-a7dd-455d-96c5-6a754233f879)
+
+
+![image](https://github.com/user-attachments/assets/a58891ce-011e-4d61-9382-1d150158e539)
+
+
+Now if the correlation is plotted with all the columns present in new data frame created by Dummy method it can be found the factors which are or are not impacting the churn.
 
 ![image](https://github.com/user-attachments/assets/80598f84-1e17-4e4d-9a62-3856aabed794)
 
 ![image](https://github.com/user-attachments/assets/8c4fd755-9c79-4dfd-bc9f-10affe0168de)
+
+
+In the above image green marked are low impactful  and red is high impactful for churns.
+
+
+For further bivariant analysis a function has been created
+
+![image](https://github.com/user-attachments/assets/f66f256c-c34a-4a07-927c-61a7e0c8dae3)
+
+This function will be used for various bivariant analysis.
+
+First, a variant will be created for churned and non-churned user, which will be used for plotting accordingly.
+
+![image](https://github.com/user-attachments/assets/511fb323-7264-44dd-8176-7d81f0d51850)
+
+
+
+![image](https://github.com/user-attachments/assets/9752a2e0-3d3b-4b99-b776-93aafc229118)
+
+From this plot it can be inferred that **Females without partners**  and **males with parteners** are are more chunred than than the other halves.
+
+![image](https://github.com/user-attachments/assets/b793ee71-a3b3-4608-93a0-16b91208e8d7)
+
+From above plot its clear that Males without partners are non-churners.
+
+
+![image](https://github.com/user-attachments/assets/bfadacab-e257-4ecc-954a-313ca33b7660)
+
+This plot shows how people are linkely to churn for different contract period. **Males are likely to churn for One & Two year Contracts** and **Females are likely to churn for Month to month contract periods**. Hence for short term Females are more churners than males.
+
+
+![image](https://github.com/user-attachments/assets/81e10604-b102-4d21-a05b-693354dc64bc)
+
+This plot shows in **Bank transfer and Credit Card methods Females are more likely to Churn**. For rest of the methods user's ratio is almost 1:1.
+
+
+![image](https://github.com/user-attachments/assets/e5a5b91b-1392-416c-a570-b8e477282a4e)
+
+From this plot its clear that even if there is tech support was provided still males are less likely to churn. 
+
+
+ ![image](https://github.com/user-attachments/assets/89a776d1-3fc2-40f8-85da-46dbea1770a3)
+
+For Senior and Non-senior citizens Females are slightly on the higher side. Over all non-senior citizens are high churners.
+
+
+
+**Final observation:**
+1. Females are more
+
+
+
+
+
+
+
+
+
 
 
 
