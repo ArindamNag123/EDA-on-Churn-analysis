@@ -47,7 +47,7 @@ Here dropping the null values will not cause a major effect
 
  ![image](https://github.com/user-attachments/assets/6ffd30a6-d776-4685-bdc3-2802a2b10b6a)
 
- For now customer ID column is not required, hence its dropped.
+ For now customer ID, Tenure column is not required, hence its dropped.
 
  **Univariate Analysis**
 
