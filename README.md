@@ -109,9 +109,8 @@ According to the payment method vs Churn analysis most users churned are with el
 1-12 months tenure group is most churned group of all with **1050/2200 * 100 = 47.72% appx**
 
 
-**Bivariant Analysis**
 
-Now for Bivariant Analysis feature encoding is required and for that there are multiple techniques , here Panda's get_dummies is used as One Hot Encoding Techniques.
+Now for better Analysis feature encoding is required and for that there are multiple techniques , here Panda's get_dummies is used as One Hot Encoding Techniques.
 
 For that Churn column has been converted to binary form. Also for finding correlation this is required.
 
