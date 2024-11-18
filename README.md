@@ -168,7 +168,9 @@ In the above image green marked are low impactful  and red is high impactful for
 **Bivariate Analysis**
 For  bivariate analysis a function has been created
 
-![image](https://github.com/user-attachments/assets/f66f256c-c34a-4a07-927c-61a7e0c8dae3)
+
+ ![image](https://github.com/user-attachments/assets/b95d47be-212e-43e5-95f8-336b1efe9635)
+
 
 This function will be used for various bivariate analysis.
 
