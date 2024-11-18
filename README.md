@@ -165,12 +165,12 @@ Now if the correlation is plotted with all the columns present in new data frame
 
 In the above image green marked are low impactful  and red is high impactful for churns.
 
-
-For further bivariant analysis a function has been created
+**Bivariate Analysis**
+For  bivariate analysis a function has been created
 
 ![image](https://github.com/user-attachments/assets/f66f256c-c34a-4a07-927c-61a7e0c8dae3)
 
-This function will be used for various bivariant analysis.
+This function will be used for various bivariate analysis.
 
 First, a variant will be created for churned and non-churned user, which will be used for plotting accordingly.
 
