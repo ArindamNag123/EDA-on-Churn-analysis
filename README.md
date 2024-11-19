@@ -47,7 +47,7 @@ Here dropping the null values will not cause a major effect
 
  ![image](https://github.com/user-attachments/assets/6ffd30a6-d776-4685-bdc3-2802a2b10b6a)
 
- For now customer ID, Tenure column is not required, hence its dropped.
+ For now customer ID column is not required, hence its dropped.
 
  **Univariate Analysis**
 
@@ -109,8 +109,9 @@ According to the payment method vs Churn analysis most users churned are with el
 1-12 months tenure group is most churned group of all with **1050/2200 * 100 = 47.72% appx**
 
 
+**Bivariant Analysis**
 
-Now for better Analysis feature encoding is required and for that there are multiple techniques , here Panda's get_dummies is used as One Hot Encoding Techniques.
+Now for Bivariant Analysis feature encoding is required and for that there are multiple techniques , here Panda's get_dummies is used as One Hot Encoding Techniques.
 
 For that Churn column has been converted to binary form. Also for finding correlation this is required.
 
@@ -165,14 +166,12 @@ Now if the correlation is plotted with all the columns present in new data frame
 
 In the above image green marked are low impactful  and red is high impactful for churns.
 
-**Bivariate Analysis**
-For  bivariate analysis a function has been created
 
+For further bivariant analysis a function has been created
 
- ![image](https://github.com/user-attachments/assets/b95d47be-212e-43e5-95f8-336b1efe9635)
+![image](https://github.com/user-attachments/assets/f66f256c-c34a-4a07-927c-61a7e0c8dae3)
 
-
-This function will be used for various bivariate analysis.
+This function will be used for various bivariant analysis.
 
 First, a variant will be created for churned and non-churned user, which will be used for plotting accordingly.
 
@@ -203,6 +202,10 @@ This plot shows in **Bank transfer and Credit Card methods Females are more like
 
 From this plot its clear that even if there is tech support was provided still males are less likely to churn. 
 
+![image](https://github.com/user-attachments/assets/38b25f82-4ce1-4e4b-9785-5e12d18664bf)
+
+Females with dependants and without dependants are slightly more churners than males.
+
 
  ![image](https://github.com/user-attachments/assets/89a776d1-3fc2-40f8-85da-46dbea1770a3)
 
@@ -211,7 +214,15 @@ For Senior and Non-senior citizens Females are slightly on the higher side. Over
 
 
 **Final observation:**
-1. Females are more
+1. Females are more churner
+2. Males more range of expenditure but churned less compared to females
+3. Even if with high Total charges are low churners with less tenure that means High Monthly Charges are the reason for churn.
+4. Senior citizens are stable users
+5. Users with partners are stable users
+6. Users with dependant are stable users
+7. Users with Electronic payment methods are high churners
+8. Users with no tech support are high churners
+
 
 
 
