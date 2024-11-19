@@ -209,7 +209,12 @@ Females with dependants and without dependants are slightly more churners than m
 
 For Senior and Non-senior citizens Females are slightly on the higher side. Over all non-senior citizens are high churners.
 
+![image](https://github.com/user-attachments/assets/7d598711-9a69-4f33-87f7-b13935c64757)
 
+
+![image](https://github.com/user-attachments/assets/22047d65-675a-488d-a8f2-2ef2bc75d014)
+
+For Churned user, Maes have wide spread outliers. Females have less expense capacity since max Total charges is appx 5200. 
 
 **Final observation:**
 1. Females are more churner
@@ -220,40 +225,4 @@ For Senior and Non-senior citizens Females are slightly on the higher side. Over
 6. Users with dependant are stable users
 7. Users with Electronic payment methods are high churners
 8. Users with no tech support are high churners
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
 
