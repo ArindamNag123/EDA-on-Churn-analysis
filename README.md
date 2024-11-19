@@ -109,9 +109,7 @@ According to the payment method vs Churn analysis most users churned are with el
 1-12 months tenure group is most churned group of all with **1050/2200 * 100 = 47.72% appx**
 
 
-**Bivariant Analysis**
-
-Now for Bivariant Analysis feature encoding is required and for that there are multiple techniques , here Panda's get_dummies is used as One Hot Encoding Techniques.
+Now for better Analysis feature encoding is required and for that there are multiple techniques , here Panda's get_dummies is used as One Hot Encoding Techniques.
 
 For that Churn column has been converted to binary form. Also for finding correlation this is required.
 
@@ -166,8 +164,8 @@ Now if the correlation is plotted with all the columns present in new data frame
 
 In the above image green marked are low impactful  and red is high impactful for churns.
 
-
-For further bivariant analysis a function has been created
+**Bivariate Analysis**
+For  bivariate analysis a function has been created
 
 ![image](https://github.com/user-attachments/assets/f66f256c-c34a-4a07-927c-61a7e0c8dae3)
 
